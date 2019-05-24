@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/finder" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="LOST PAGE"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+
+    <EditText
+        android:id="@+id/name_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+
+    <EditText
+        android:id="@+id/mobileNo_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+
+        android:hint="Mobile No."
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/password_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+
+        android:hint="Vehicle No."
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/vehiclemodel_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="214dp"
+
+        android:hint="Vehicle Model"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/chassisno_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+
+        android:hint="Chassis No."
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+
+
+
+    <Button
+        android:id="@+id/button_lost"
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorAccent"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/lastseen_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/date_lost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp"
+
+        android:ems="10"
+        android:hint="Registration Date"
+        android:inputType="date"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/white"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
